@@ -139,12 +139,8 @@ int check_winner(){
 void game(){
 	for(int i=0;i<9;i++){
 		if(i%2==0){
-			// if(i==0) board[1][1] = 'X';
-			// else{
 				computer_move(i);
-				// printf("%d, %d", pos_x, pos_y);
 				board[pos_x][pos_y]='X';
-			// }
         	print_board();
 		}
 
