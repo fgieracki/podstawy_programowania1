@@ -1,5 +1,5 @@
 # codes
-Repository for codes
+Repository for (public) codes
 
 
 ### AI
